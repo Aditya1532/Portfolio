@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Meshram | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">AM.</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container hero-content">
+            <img src="profile.jpg" class="profile-img">
+
+            <h1>Aditya Meshram</h1>
+            <p class="title">Aspiring Web Developer & Programmer</p>
+            <p>Computer Engineering student passionate about web development and programming.</p>
+
+            <div class="btn-group">
+                <a href="#resume" class="btn btn-primary">Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-text">
+                <p>Computer Engineering student under SPPU.</p>
+                <p>10th: 84.8% | 12th: 75%</p>
+                <p>Skilled in HTML, CSS, JS, Java, Python, C++.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">C++</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Problem Solving</span>
+                        <span class="skill-item">Communication</span>
+                        <span class="skill-item">Teamwork</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <h3 style="margin-bottom:20px;">Web Projects</h3>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Temperature Converter</h3>
+                    <p>Convert Celsius and Fahrenheit using JavaScript.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Tribute Page</h3>
+                    <p>Static webpage using HTML and CSS.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Skill Booster Landing Page</h3>
+                    <p>Multi-section website for course institute.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Resume Website</h3>
+                    <p>Personal resume built using HTML and CSS.</p>
+                </div>
+            </div>
+
+            <br><br>
+
+            <h3 style="margin-bottom:20px;">Python Projects</h3>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Password Generator</h3>
+                    <p>Generates secure random passwords.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Number Guessing Game</h3>
+                    <p>CLI game using loops and conditions.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Simple Calculator</h3>
+                    <p>Performs arithmetic operations.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>To-Do List App</h3>
+                    <p>Task manager using file handling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+
+            <div class="resume-card">
+                <h3>Download My Resume</h3>
+                <button class="btn btn-primary" id="downloadBtn">Download PDF</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Name" required id="name">
+                <input type="email" placeholder="Email" required id="email">
+                <textarea rows="5" placeholder="Message" required id="message"></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with ❤ by Aditya Meshram</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
